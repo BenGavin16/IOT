@@ -1,0 +1,13 @@
+Reviewed Existing Content: Identified relevant sections in the document that required updates, focusing on the "Future Iterations" and "Testing Strategy" sections.
+
+Added Machine Learning Section: Expanded the "Future Iterations" section to include details about incorporating machine learning into the traffic light system. This involved:
+
+Defining machine learning and citing GeeksforGeeks for context.
+Explaining how it could analyze real-life data (e.g., traffic volume, time of day) to optimize traffic light timings.
+Providing specific examples of adjustments during busy and non-busy traffic periods to improve system efficiency.
+Enhanced Testing Strategy: Updated the "Testing Strategy" section to describe the testing and debugging processes in greater detail. This included:
+
+Verifying the functionality of LED colors and real-time updates via the traffic light system.
+Testing the button's ability to interrupt the system as intended.
+Documenting debugging efforts, such as stabilizing the Wi-Fi connection and ensuring correct button functionality.
+Used Tracked Changes: All edits were made using Microsoft Word's Tracked Changes feature to clearly highlight the modifications for review and submission.
