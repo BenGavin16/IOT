@@ -30,24 +30,28 @@ https://github.com/BenGavin16/IOT.git
 ## Contributing
 Contributions are welcome! Please feel free to submit issues or pull requests to improve the project.
 
+# Traffic Light System Project
+
 ## Updated Assignment 2 Changes
-Challenges Faced:
 
-WiFi Connectivity Issues:
-Configuring the Arduino Yun to connect to WiFi was challenging and consumed significant time.
-Compilation Errors:
-Several errors were encountered while uploading code via Arduino IDE, mostly related to library usage and board settings.
-Some errors were resolved through troubleshooting, but a few persisted, impacting testing.
-Lessons Learned:
+### Challenges Faced:
+1. **WiFi Connectivity Issues**: Configuring the Arduino Yun to connect to WiFi proved challenging and consumed significant time. This issue primarily affected the integration of IoT functionalities like real-time status updates via the Blynk app.
+2. **Button Functionality**: Initially, the pedestrian push button did not work as expected. Debugging required checking the physical connections and ensuring proper code alignment with the button's virtual pins.
+3. **Compilation Errors**: Errors during code upload via the Arduino IDE, mostly related to library usage and board settings, slowed progress. While many errors were resolved through troubleshooting, some issues persisted, impacting testing.
 
-Hardware-software integration requires meticulous attention to library compatibility and board configurations.
-IoT projects demand rigorous testing at every stage to identify and fix issues early.
-Current Status:
+### Lessons Learned:
+1. **Hardware-Software Integration**: This project highlighted the importance of ensuring compatibility between hardware components and software libraries.
+2. **Rigorous Testing**: IoT projects demand continuous testing at every stage to identify and resolve issues early, particularly for connectivity and real-time updates.
+3. **Collaborative Problem-Solving**: Working as a team allowed us to divide tasks effectively, addressing both physical and software-related challenges more efficiently.
 
-The updated code includes logic for real-time traffic light status updates via Blynk.
-Full functionality could not be verified due to unresolved upload and connectivity issues.
-Future Steps:
+### Current Status:
+- **Machine Learning Potential**: A section has been added discussing how machine learning could improve traffic light efficiency by analyzing real-life data like traffic patterns and times of day.
+- **Testing and Debugging Updates**: Testing focused on verifying LED sequence timing, ensuring the push button interrupted the system correctly, and confirming the Blynk app received updates in real-time.
+- **WiFi Connectivity**: Despite efforts, unresolved WiFi issues prevented full functionality of real-time traffic updates.
 
-Debug the WiFi connectivity problem on the Arduino Yun.
-Test and finalize the updated code.
-Consider alternative IoT platforms for better integration and reliability.
+### Future Steps:
+1. **Debugging**: Focus on resolving the WiFi connectivity issues with the Arduino Yun to ensure seamless integration with the Blynk app.
+2. **Finalize Testing**: Verify the functionality of all components, including the push button and virtual pins.
+3. **Alternative Platforms**: Consider exploring other IoT platforms for better integration and reliability in future iterations.
+4. **Machine Learning Implementation**: Investigate the use of machine learning to dynamically adjust traffic light timings based on traffic patterns and conditions.
+
